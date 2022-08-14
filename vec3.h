@@ -55,8 +55,6 @@ using point3 = vec3;
 // RGB color
 using color = vec3;
 
-#endif
-
 
 // UTILITY FUNCTIONS
 inline std::ostream& operator<<(std::ostream &out, const vec3 &v) {
@@ -99,3 +97,4 @@ inline vec3 unit_vector(vec3 v) {
     return v/v.length();
 }
 
+#endif
